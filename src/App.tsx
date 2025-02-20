@@ -75,7 +75,7 @@ const ModelViewer: React.FC<Props> = ({ params, model }) => {
             padding: "10px",
           }}
         >
-          <h2>Модель</h2>
+          <h3>Модель</h3>
           {stateModel.map((model) => {
             const modelName = params.find((p) => p.id === model.paramId)?.name;
             return (
